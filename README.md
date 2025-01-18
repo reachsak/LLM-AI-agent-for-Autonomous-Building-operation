@@ -23,13 +23,22 @@ For example, during low occupancy periods, the AI agent may reduce HVAC intensit
 
 ## Key Features
 - **Integration with IoT and Sensors:** Collects real-time environmental data such as temperature, humidity, and energy usage, as well as occupancy information, using IoT devices and sensors.
-- **Blockchain for Secure Threshold Management:** Ensures transparency and immutability of baseline operational parameters stored in blockchain smart contracts.
 - **Threshold-Based Control:** Automates building operations by comparing sensor data against predefined thresholds and triggering actions to maintain comfort and efficiency.
 - **Occupancy-Based Decision-Making:** Dynamically adjusts building systems based on occupancy data to optimize energy consumption and environmental quality.
-- **User Interaction and Adaptability:** Processes natural language inputs for real-time adjustments, accommodating individual preferences and situational changes.
 
 ## Benefits
 The LLM-based AI agent provides an unprecedented level of flexibility and adaptability, surpassing traditional automation systems. By integrating threshold-based automation and contextual decision-making, this system enhances building efficiency, reduces energy consumption, and delivers a responsive and user-centric approach to smart building management.
 
+### Requirements
+- Open-source Large language model (e.g., LLaMA)
+- Generative AI inference tool. llama.cpp
+- Python 3.10
+- Raspberry Pi and IoT sensors
+- Smart home devices (e.g., smart lights, smart fan, smart humidifier, smart air purifier)
 
+## Detailed setup guide
+Coming soon.....
+
+## License
+This project is licensed under the MIT License.
 
