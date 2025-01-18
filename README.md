@@ -1,6 +1,8 @@
 # LLM-AI-agent-for-Autonomous-Building-operation
 
-# Project Description: LLM-AI-Agent for Autonomous Building Operation
+## Manuscript
+[Autonomous Building Cyber-Physical Systems Using Decentralized Autonomous Organizations, Digital Twins, and Large Language Model](https://arxiv.org/abs/2410.19262)
+# Project Description
 
 This project introduces an advanced AI agent designed to oversee autonomous building operation and facilities management. The proposed LLM-based autonomous building operation framework combines IoT devices, smart building facilities, LLMs, and blockchain technologies to create a decentralized and automated system for managing building systems.
 <img src="/fig3.png" style="float: left; margin-right: 20px; max-width: 200px;">
