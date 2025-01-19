@@ -10,16 +10,13 @@ This project introduces an advanced AI agent designed to oversee autonomous buil
 
 ## Threshold-Based Automation System
 
-The threshold-based automation system utilizes an array of environmental sensors and IoT devices to collect data such as temperature, humidity, luminosity, carbon monoxide levels, energy usage, and occupancy levels. Raspberry Pi devices process these data and relay them to the AI agent via REST API. 
+The threshold-based automation system utilizes the AI agent to continuously monitor real-time sensor data and compare it with these predefined thresholds. If the environmental conditions exceed these thresholds, the AI agent uses its function-calling capabilities to take action, such as adjusting HVAC setpoints, modifying lighting intensity, or triggering alerts to maintain optimal building conditions.These threshold values are the baseline comfort parameters for ensuring optimal comfort and indoor environmental quality
 
-Threshold parameters, including maximum or minimum values for comfort and indoor environmental quality (e.g., temperature and humidity), are defined by building managers and stored in blockchain smart contracts. These values serve as baseline operational limits and ensure secure, transparent, and immutable governance. The AI agent continuously monitors real-time sensor data and compares it with these predefined thresholds. If the environmental conditions exceed these thresholds, the AI agent uses its function-calling capabilities to take action, such as adjusting HVAC setpoints, modifying lighting intensity, or triggering alerts to maintain optimal building conditions.
 <img src="/fig1.png" style="float: left; margin-right: 20px; max-width: 200px;">
 
 ## Occupancy-Based Automation System
 
-The occupancy-based automation system incorporates contextual decision-making, enabling more dynamic and adaptive building control. The AI agent interprets multiple variables simultaneously, including real-time occupancy data and the current settings of building systems. Based on this analysis, the agent adjusts the performance of systems such as HVAC and lighting to optimize energy consumption while maintaining comfort. 
-
-For example, during low occupancy periods, the AI agent may reduce HVAC intensity or dim the lighting to conserve energy. Conversely, during high occupancy, the agent ensures that environmental conditions are optimal for occupants. The system also accommodates user preferences and feedback through natural language processing, enabling users to provide specific requests or adjust system behaviors dynamically.
+The proposed AI agent will adjust the performance of building systems (e.g., HVAC performance or lighting intensity) based on occupancy level to dynamically optimize energy consumption.For example, during low occupancy periods, the AI agent may reduce HVAC intensity or dim the lighting to conserve energy. Conversely, during high occupancy, the agent ensures that environmental conditions are optimal for occupants. The system also accommodates user preferences and feedback through natural language processing, enabling users to provide specific requests or adjust system behaviors dynamically.
 <img src="/fig2.png" style="float: left; margin-right: 20px; max-width: 200px;">
 
 
